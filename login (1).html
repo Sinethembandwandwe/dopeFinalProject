@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOP{e} - Login / Registration</title>
+    <link rel="stylesheet" href="wholestyle.css">
+    <script src="javascript.js" defer></script> <!--External javascript-->
+</head>
+<body style="font-family: Arial, sans-serif; background-color: #fff0f5;">
+
+<header >
+    <h1 >Daily Outfit Planner</h1>
+    <p style="color: #ff69b4; font-size: 18px;">Dress Pressed NOT Depressed 😁😍</p>
+    <hr >
+    <nav class="topnav">
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li>
+                <a href="#planner" class="dropdown-toggle">Outfit Planner</a>
+                <ul class="dropdown-menu">
+                    <li><a href="#tips">Tips</a></li>
+                    <li><a href="#faqs">FAQs</a></li>
+                </ul>
+            </li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="reviews.html">Submit Review</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main >
+    <h2 style="color: #c71585;">User Login / Registration</h2>
+
+     <!--Showing errors inline-->
+    <div id="registration-errors" class="signupError" style="color: red; margin-bottom: 10px;"></div>
+
+    <form class="auth-form" method="post" action="login.php">
+        <input type="hidden" name="action" value="signup">
+        <h3 class="form-title">Register</h3>
+        <label for="regName">Name:</label><br>
+        <input type="text" id="regName" name="regName" placeholder="Enter your name"><br><br>
+
+        <label for="regEmail">Email:</label><br>
+        <input type="email" id="regEmail" name="regEmail" placeholder="Enter your email"><br><br>
+
+        <label for="regPassword">Password:</label><br>
+        <input type="password" id="regPassword" name="regPassword" placeholder="Enter your password">
+        
+        <label for="regPasswordConfirm">Confirm Password:</label><br>
+        <input type="password" id="regPasswordConfirm" name="passwordConfirm" placeholder="Confirm password" required>
+        <br><br>
+        <button type="button" class="toggle-password" data-target="regPassword, passwordConfirm">Show</button>
+        <br><br>
+        <input type="submit" value="Register" class="btn"><br>
+    </form>
+
+    <br><br>
+    
+    <!--Sowing errors inline-->
+    <div id="login-errors" class="loginError" style="color: red; margin-bottom: 10px;"></div>
+    
+    <form class="auth-form" method="post" action="login.php" >
+        <input type="hidden" name="action" value="login">
+        <h3 class="form-title">Login</h3>
+        <label for="loginEmail">Email:</label><br>
+        <input type="email" id="loginEmail" name="loginEmail" placeholder="Enter your email"><br><br>
+
+        <label for="loginPassword">Password:</label><br>
+        <input type="password" id="loginPassword" name="loginPassword" placeholder="Enter your password"> 
+        <button type="button" class="toggle-password" data-target="loginPassword">Show</button><br><br>
+
+        <input type="submit" value="Login" class="btn">
+    </form>
+    
+    
+</main>
+
+<footer style="text-align: center; background-color: #ffb6c1; padding: 15px; margin-top: 20px;">
+    <p style="color: #8b008b;">Author: Sinethemba Ndwandwe, Sibongiseni Masilela, and Kulungile Vuso</p>
+    <p style="color: #8a2be2;">&copy; 2025 Daily Outfit Planner. All rights reserved.</p>
+</footer>
+
+</body>
+</html>

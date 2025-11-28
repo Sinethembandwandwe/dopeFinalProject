@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>3D Outfit Generator</title>
+  <style>
+    body { margin: 0; overflow: hidden; font-family: sans-serif; }
+    #controls {
+      position: absolute; top: 10px; left: 10px;
+      background: rgba(255, 255, 255, 0.9);
+      padding: 10px;
+      z-index: 10;
+    }
+    label {
+      display: block;
+      margin-bottom: 8px;
+    }
+    select, button {
+      margin-top: 6px;
+    }
+  </style>
+</head>
+<body>
+  <div id="controls">
+    <p id="weather-info">Loading weather...</p>
+    <label>Filter Mode:
+      <select id="filterMode">
+        <option value="moodstyle">Mood + Style</option>
+        <option value="weather">Weather</option>
+      </select>
+    </label>
+    <label>Mood:
+      <select id="mood">
+        <option value="happy">Happy</option>
+        <option value="sad">Sad</option>
+      </select>
+    </label>
+    <label>Style:
+      <select id="style">
+        <option value="casual">Casual</option>
+        <option value="formal">Formal</option>
+        <option value="gothic">Gothic</option>
+      </select>
+    </label>
+    <!--<button id="saveOutfitBtn" disabled>Save Outfit</button> -->
+    <button onclick="generateOutfit()">Generate Outfit</button>
+  </div>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/build/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/GLTFLoader.js"></script>
+  <script src="cartoon.js"></script>
+</body>
+</html>
