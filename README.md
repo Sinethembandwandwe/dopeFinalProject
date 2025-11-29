@@ -80,6 +80,22 @@ Save an outfit <img width="1366" height="725" alt="image" src="https://github.co
 
 View outfit on your wardrobe <img width="1366" height="725" alt="image" src="https://github.com/user-attachments/assets/ca867cfb-b14b-4900-a64f-7b98416e12e8" />
 
+Technologies Used
+Frontend:
+- HTML5
+- CSS3
+- JavaScript
+- 3D rendering with .glb assets
+
+Backend:
+- PHP
+- MySQL
+- Sessions & Authentication
+
+Tools:
+- Git & GitHub
+-InfinityFree hosting
+- Local development with XAMPP
 
 
 
