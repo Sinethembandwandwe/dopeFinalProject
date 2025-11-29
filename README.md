@@ -101,18 +101,18 @@ Tools:
 
 To run the project with full functionality:
 
-~ Clone this repository:git clone https://github.com/Sinethembandwandwe/YOUR_REPO.git
-~ Create a config.php file based on the file DbConnect.php:
+- Clone this repository:git clone https://github.com/Sinethembandwandwe/YOUR_REPO.git
+- Create a config.php file based on the file DbConnect.php:
 <?php
 $host = "YOUR_HOST";
 $user = "YOUR_USERNAME";
 $password = "YOUR_PASSWORD";
 $database = "YOUR_DATABASE";
 ?>
-~ Import the provided SQL file into your MySQL database.
-~ Place the project folder inside your htdocs (XAMPP) directory.
-~ Start Apache + MySQL.
-~ All 3D models and outfit generator features will now load correctly.
+- Import the provided SQL file into your MySQL database.
+- Place the project folder inside your htdocs (XAMPP) directory.
+- Start Apache + MySQL.
+- All 3D models and outfit generator features will now load correctly.
 
 # Credits
 
