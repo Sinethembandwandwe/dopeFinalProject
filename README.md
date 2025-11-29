@@ -97,6 +97,34 @@ Tools:
 -InfinityFree hosting
 - Local development with XAMPP
 
+# Local Setup Instructions
+
+To run the project with full functionality:
+
+~ Clone this repository:git clone https://github.com/Sinethembandwandwe/YOUR_REPO.git
+~ Create a config.php file based on the file DbConnect.php:
+<?php
+$host = "YOUR_HOST";
+$user = "YOUR_USERNAME";
+$password = "YOUR_PASSWORD";
+$database = "YOUR_DATABASE";
+?>
+~ Import the provided SQL file into your MySQL database.
+~ Place the project folder inside your htdocs (XAMPP) directory.
+~ Start Apache + MySQL.
+~ All 3D models and outfit generator features will now load correctly.
+
+# Credits
+
+This project was developed as part of a student web development module (team members included on the website). All 3D models and assets were created or assembled specifically for this project.
+
+# Contact
+
+For questions or collaboration: Developer: Sinethemba Ndwandwe
+
+!!!!!!! Thank you for viewing this project! !!!!!!!!!!
+
+
 
 
 
