@@ -66,3 +66,22 @@ As a result, the 3D cartoon character generator does not load online. Clothing m
 
 Fully working screenshots are included below to demonstrate functionality not available on the demo.
 
+The welcome page of the cartoon shows the model rotating at 180 degrees <img width="1366" height="731" alt="image" src="https://github.com/user-attachments/assets/5e2327a1-31b3-4d06-92e4-d70912ee369e" />
+
+Weather using the location (API Key, edit cartoon.js to insert your own key) <img width="1366" height="732" alt="image" src="https://github.com/user-attachments/assets/1fe1aa4c-07b7-4580-80ba-4418c4ee6f62" />
+
+Generate outfit using a mood + style filter <img width="1366" height="734" alt="image" src="https://github.com/user-attachments/assets/e0981a58-e33c-48c6-9128-7b276485aef0" />
+
+Generate outfit using special occassion filter <img width="1366" height="729" alt="image" src="https://github.com/user-attachments/assets/0a9a0fcc-13ec-4760-be40-1b79386a3f19" />
+
+<img width="1366" height="727" alt="image" src="https://github.com/user-attachments/assets/e8fb7b6a-5ced-476f-adfb-abeccbaf341d" />
+
+Save an outfit <img width="1366" height="725" alt="image" src="https://github.com/user-attachments/assets/e2bd8644-6ad4-446c-8861-7335542b0194" />
+
+View outfit on your wardrobe <img width="1366" height="725" alt="image" src="https://github.com/user-attachments/assets/ca867cfb-b14b-4900-a64f-7b98416e12e8" />
+
+
+
+
+
+
