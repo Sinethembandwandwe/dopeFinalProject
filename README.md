@@ -1,7 +1,7 @@
 # dopeFinalProject
 For the CS3 final project, we created the Daily Outfit Planner website to help you pick your outfit for the day.
-Live Demo: https://dope.42web.io/
-Note: Some 3D features (cartoon generator, .glb model loading) do not work on the demo due to InfinityFree hosting limitations. See the screenshots below for a full demonstration of the functionality.
+Live Demo: https://sinethembandwandwe.github.io/OutfitPlanner/
+Note:Due to the limitation of hosting with gitpages, I only show the home page (index.html), the others pages are PHP files. See the screenshots below for a full demonstration of the functionality.
 
 # Overview
 DOP{e} – Daily Outfit Planner is a full‑stack web application that allows users to:
